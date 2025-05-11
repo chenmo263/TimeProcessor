@@ -23,7 +23,7 @@
 ### 编译与运行
 1. 克隆本仓库：
    ```bash
-   git clone https://github.com/你的用户名/你的仓库名.git
+   git clone https://github.com/chenmo263/TimeProcessor.git
    cd 仓库目录
    ```
 2. 用 Visual Studio 打开解决方案，或命令行编译：
@@ -49,9 +49,9 @@
 3. 欢迎提交 issue 反馈 bug 或建议。
 
 ## 联系方式
-- 作者：王展（Wang Zhan）
-- 邮箱：wangzhan@example.com
-- 项目主页：https://github.com/你的用户名/你的仓库名
+- 作者：陈默263（Chen Mo 263）
+- 邮箱：chenmo263@chenmo2.site
+- 项目主页：https://github.com/chenmo263/TimeProcessor
 
 ---
 如有问题或建议，欢迎随时联系或提交 issue！ 
