@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>TimeProcessor</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>qiuqiuqiu.ico</ApplicationIcon>
+    <NuGetAudit>False</NuGetAudit>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="qiuqiuqiu.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="EPPlus" Version="8.0.3" />
+    <PackageReference Include="NPOI" Version="2.7.3" />
+  </ItemGroup>
+</Project>
